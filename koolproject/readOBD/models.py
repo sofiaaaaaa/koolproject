@@ -1,7 +1,7 @@
 from django.db import models
 
 class OBDdb(models.Model):
-    time = models.DateField(null=True)
+    time = models.DateTimeField(null=True)
     vss = models.FloatField(null=True)
     maf = models.FloatField(null=True)
     rpm = models.FloatField(null=True)
