@@ -1,11 +1,6 @@
-import django
-from django.conf import settings
-settings.configure(DATABASES=('/home/vagrnat/webapps/koolproject/db.sqlite3'), INSTALLED_APPS=('readOBD'), DEBUG=True)
-django.setup()
-
-from readOBD.models import OBDdb
 #from readOBD.models import OBDdb
 from django.db import connection
+
 import obd
 
 # connecting ELM
