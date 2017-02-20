@@ -1,11 +1,12 @@
 from django.db import models
 
 class OBDdb(models.Model):
-    time = models.DateTimeField(null=True)
+    local_time = models.DateTimeField(auto_now_add=True, null=True)
+    #car_time = models.DateTimeField()
     vss = models.FloatField(null=True)
     maf = models.FloatField(null=True)
     rpm = models.FloatField(null=True)
-    kpl = models.FloatField(null=True)
+    #kpl = models.FloatField(null=True)
     coolant_temp = models.FloatField(null=True)
     oil_temp = models.FloatField(null=True)
     control_module_voltage = models.FloatField(null=True)
