@@ -1,11 +1,11 @@
 import obd
-import json
-from django.db import models
+#import json
+#from django.db import models
 
 from readOBD.models import OBDdb
-import requests
+#import requests
 
-from obd import OBDStatus
+#from obd import OBDStatus
 
 # connecting ELM
 connection = obd.OBD('/dev/pts/1')
