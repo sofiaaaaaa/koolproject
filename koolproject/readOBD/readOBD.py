@@ -1,27 +1,3 @@
-"""
-import sys, os
-
-proj_path = "/home/vagrant/webapps/koolproject/"
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "koolproject.koolproject.settings")
-sys.path.append(proj_path)
-
-os.chdir(proj_path)
-
-from django.core.wsgi import get_wsgi_application
-application = get_wsgi_application()
-
-import obd
-
-from models import OBDdb
-"""
-import sys, os, django
-
-proj_path = "/home/vagrant/webapps/koolproject"
-sys.path.append(proj_path)
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "koolproject.settings")
-django.setup()
-
-
 from readOBD.models import OBDdb
 
 import obd
