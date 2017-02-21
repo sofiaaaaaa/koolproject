@@ -1,4 +1,4 @@
-#!/home/vagrant/webapps/koolprojectenv/bin/python
+#!/vagrant/koolProject/koolprojectenv/bin/python
 
 import sys
 import getopt

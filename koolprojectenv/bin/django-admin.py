@@ -1,4 +1,4 @@
-#!/home/vagrant/webapps/koolprojectenv/bin/python3
+#!/vagrant/koolProject/koolprojectenv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-#!/home/vagrant/webapps/koolprojectenv/bin/python3
+#!/vagrant/koolProject/koolprojectenv/bin/python3
 #
 # Very simple serial terminal
 #
